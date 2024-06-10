@@ -1,6 +1,6 @@
-import { useState } from "react";
+// import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import viteLogo from "/vite.svg";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -9,13 +9,13 @@ function App() {
     <>
       <div className="bg-fahad-color flex text-white flex-col	justify-center items-center text-center max-md:flex-col-reverse max-sm:flex-col  h-screen">
         <div className="flex gap-10 max-sm:flex-col max-sm:gap-2 ">
-          <a href="https://vitejs.dev" className=" " target="_blank">
+          {/* <a href="https://vitejs.dev" className=" " target="_blank">
             <img
               src={viteLogo}
               className="w-24 sha  hover:animate-ping"
               alt="Vite logo"
             />
-          </a>
+          </a> */}
           <a href="https://react.dev" target="_blank">
             <img
               src={reactLogo}
