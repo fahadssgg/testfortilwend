@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
@@ -26,14 +26,14 @@ function App() {
         </div>
         <h1>Vite + React</h1>
         <div className="">
-          <button
+          {/* <button
             className="bg-cyan-500/45 px-4 py-1 font-bold rounded-lg outline outline-1 hover:outline-4 my-8 outline-red-500 max-sm:outline-blue-500 "
             onClick={() => setCount((count) => count + 1)}
           >
             count is {count}
-          </button>
+          </button> */}
           <p>
-            Edit <code>src/App</code> and save to test HMR
+            Edit <code>src</code> and save to test HMR
           </p>
         </div>
         <p className="read-the-docs">
